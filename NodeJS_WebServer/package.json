@@ -1,0 +1,14 @@
+{
+  "name": "NodeJS_WebServer",
+  "version": "0.0.0",
+  "description": "NodeJS_WebServer",
+  "main": "app.js",
+  "author": {
+    "name": "SeongHo",
+    "email": ""
+  },
+  "dependencies": {
+    "uuid": "^2.0.1",
+    "websocket": "^1.0.22"
+  }
+}
