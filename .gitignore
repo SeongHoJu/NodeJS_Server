@@ -45,9 +45,9 @@ Temporary Items
 *.zip
 
 NodeJS_WebServer/.ntvs_analysis.dat
-NodeJS_WebServer/obj
-DataBase/data
-Database/journal
-Database/bin
-Database/logs/*.*
+NodeJS_WebServer/obj/
+data/
+journal/
+bin/
+logs/*.*
 
