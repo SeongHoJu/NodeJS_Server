@@ -1,21 +1,19 @@
 1. Extract bin.zip to \NodeJS_Server\Database Directory
 
-2. Open for Edit 1_SetWindowEnvironment.bat File, Execute Just Once! if you execute Twice, then Same Path is Added to System Path
+2. Execute 1_SetWindowEnvironment.bat File with Authorization. using Execute Just Once! if you execute Twice, then Same Path is Added to System Path
 
-3. Modify DB_PATH value to Your Path where directory '\bin' located (Absolute Path)
+3. Now, You need to check System Environment that MongoDB Path is correctly Updated.
 
-4. Execute 1_SetWindowEnvironment.bat File
+4. Execute 2_MongoDB_Setting.bat
 
-5. Now, You need to check System Environment that MongoDB Path is correctly Updated.
+5. If occured error message that 'can't find mongod.exe', You need Recheck your SystemPath.
 
-6. Open for Edit 2_MogoDB_Setting.bat File
+6. If All Process is fine and data folder created successfully, then create \log Folder to where \bin or \data exist
 
-7. Modify DB_DIRECTORY and DATA_PATH value. DB_PATH is same location wherei describe index 3.
+7. Open mongod.cfg file for Edit
 
-8. Execute 2_MongoDB_Setting.bat
+8. Modify dbpath= (\data absolute path)and logpath= (\log absolute path) + mongo.log
 
-9. Is There DB_PATH folder? ( DB_PATH Default Value : data)
+9. Execute 3_MongoDB_ServiceRegister.bat
 
-10. Execute 3_MongoDB_ServiceRegister.bat
-
-11. Finish. 
+10. Finish. 

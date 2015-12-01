@@ -1,18 +1,18 @@
 1. bin.zip 파일을 ..\NodeJS_Server\Database 에 압축 해제한다.
 
-2. 1_SetWindowEnvironment.bat 파일을 편집으로 연다. 한번만 실행해야 하며, 다시 실행시키면 환경변수 Path 수동 삭제 필요
+2. 1_SetWindowEnvironment.bat 파일을 관리자 권한으로 실행. 한번만 실행해야 하며, 다시 실행시키면 환경변수 Path 수동 삭제 필요
 
-3. DB_PATH에 해당하는 위치를 ..\NodeJS_Server\Database 로 설정한다 (절대경로)
+3. 환경 변수에 MONGO_HOME과 Path가 정상적으로 추가 되었는지 확인
 
-4. 1_SetWindowEnvironment.bat 실행 
+4. 2_MongoDB_Setting.bat 실행 
 
-5. 환경 변수에 MONGO_HOME, path DB_PATH에 해당하는 경로가 제대로 반영되었는지 확인
+5. mongod.exe를 실행할 수 없다는 메시지가 뜨면 환경변수의 Path를 다시 확인하여 수정
 
-6. 2_MogoDB_Setting.bat 파일을 편집으로 오픈
+6. 지금까지 정상적으로 진행되었다면 \logs 폴더를 생성. 위치는 \bin, \data가 존재하는 곳 \Database\logs\
 
-7. DB_DIRECTORY 와 DATA_PATH 를 수정. DB_PATH는 3번 항목의 절대경로. DATA_PATH는 기본값으로 사용해도 무방하다.
+7. mongod.cfg 파일을 편집으로 연다.
 
-8. 2_MogoDB_Setting.bat 파일 실행
+8. dbpath=( \data 절대경로 ) logpath=\logs 절대경로 + mongo.log
 
 9. DATA_PATH의 값(Default : data) 폴더가 생성되어 있는지 확인
 
