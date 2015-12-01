@@ -44,8 +44,8 @@ Temporary Items
 
 *.zip
 
-NodeJS_WebServer/.ntvs_analysis.dat
-NodeJS_WebServer/obj/
+.ntvs_analysis.dat
+obj/
 data/
 journal/
 bin/
