@@ -1,0 +1,21 @@
+1. Extract bin.zip to \NodeJS_Server\Database Directory
+
+2. Open for Edit 1_SetWindowEnvironment.bat File
+
+3. Modify DB_PATH value to Your Path where directory '\bin' located (Absolute Path)
+
+4. Execute 1_SetWindowEnvironment.bat File
+
+5. Now, You need to check System Environment that MongoDB Path is correctly Updated.
+
+6. Open for Edit 2_MogoDB_Setting.bat File
+
+7. Modify DB_DIRECTORY and DATA_PATH value. DB_PATH is same location wherei describe index 3.
+
+8. Execute 2_MongoDB_Setting.bat
+
+9. Is There DB_PATH folder? ( DB_PATH Default Value : data)
+
+10. Execute 3_MongoDB_ServiceRegister.bat
+
+11. Finish. 

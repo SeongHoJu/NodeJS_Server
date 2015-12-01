@@ -8,6 +8,7 @@
     "email": ""
   },
   "dependencies": {
+    "mongoose": "^4.2.8",
     "uuid": "^2.0.1",
     "websocket": "^1.0.22"
   }

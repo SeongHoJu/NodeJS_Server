@@ -1,0 +1,21 @@
+1. bin.zip 파일을 ..\NodeJS_Server\Database 에 압축 해제한다.
+
+2. 1_SetWindowEnvironment.bat 파일을 편집으로 연다.
+
+3. DB_PATH에 해당하는 위치를 ..\NodeJS_Server\Database 로 설정한다 (절대경로)
+
+4. 1_SetWindowEnvironment.bat 실행 
+
+5. 환경 변수에 MONGO_HOME, path DB_PATH에 해당하는 경로가 제대로 반영되었는지 확인
+
+6. 2_MogoDB_Setting.bat 파일을 편집으로 오픈
+
+7. DB_DIRECTORY 와 DATA_PATH 를 수정. DB_PATH는 3번 항목의 절대경로. DATA_PATH는 기본값으로 사용해도 무방하다.
+
+8. 2_MogoDB_Setting.bat 파일 실행
+
+9. DATA_PATH의 값(Default : data) 폴더가 생성되어 있는지 확인
+
+10. 3_MongoDB_ServiceRegister.bat 파일 실행
+
+11. 끝
