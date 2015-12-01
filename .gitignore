@@ -51,3 +51,4 @@ journal/
 bin/
 logs/*.*
 
+Database/mongod.cfg
