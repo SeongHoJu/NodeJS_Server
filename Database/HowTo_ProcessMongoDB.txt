@@ -1,6 +1,6 @@
 1. Extract bin.zip to \NodeJS_Server\Database Directory
 
-2. Open for Edit 1_SetWindowEnvironment.bat File
+2. Open for Edit 1_SetWindowEnvironment.bat File, Execute Just Once! if you execute Twice, then Same Path is Added to System Path
 
 3. Modify DB_PATH value to Your Path where directory '\bin' located (Absolute Path)
 

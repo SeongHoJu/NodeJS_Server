@@ -1,6 +1,8 @@
+@echo off
+
 set DB_DIRECTORY=data
-set DB_PATH=C:\Users\SeongHo\Documents\GitHub\NodeJS_Server\Database\%DB_DIRECTORY%
-echo %DB_PATH%
+set CURRENT_DIR=%~dp0
+set DB_PATH=%CURRENT_DIR%\%DB_DIRECTORY%
 
 @echo off
 

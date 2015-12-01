@@ -1,6 +1,6 @@
 1. bin.zip 파일을 ..\NodeJS_Server\Database 에 압축 해제한다.
 
-2. 1_SetWindowEnvironment.bat 파일을 편집으로 연다.
+2. 1_SetWindowEnvironment.bat 파일을 편집으로 연다. 한번만 실행해야 하며, 다시 실행시키면 환경변수 Path 수동 삭제 필요
 
 3. DB_PATH에 해당하는 위치를 ..\NodeJS_Server\Database 로 설정한다 (절대경로)
 

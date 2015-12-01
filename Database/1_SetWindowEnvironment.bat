@@ -1,6 +1,9 @@
-﻿; Mongo DB Register Window Environment Path
+@echo off
 
-set DB_PATH=C:\Users\SeongHo\Documents\GitHub\NodeJS_Server\Database
+set CURRENT_DIR=%~dp0
+set MONGO_PATH=%CURRENT_DIR%
 
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v MONGO_HOME /d %DB_PATH%
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v Path /d %Path%;%%MONGO_HOME%%\bin\
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v MONGO_HOME /d %CURRENT_DIR%
+reg ADD "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v Path /d "%path%%MONGO_PATH%bin;" /f
+
+pause
